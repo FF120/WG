@@ -1,0 +1,254 @@
+/*banner start here*/
+.banner {
+  margin-top: 4px;
+  padding: 0;
+}
+.left{
+	width: 40%;
+	height: auto;
+	float: left;
+}
+.bann-right{
+	
+	width: 59.7%;
+ 	height: auto;
+	float: right;
+  border:5px solid #B4BBBC;
+  padding:0;
+}
+.bann-right img{
+	width: 100%;
+	height: 302px;
+}
+.bann-right input[type="submit"]{
+	width: 100%;
+}
+/*banner end here*/
+/*navi start here*/
+.navi{
+	margin-top:4px;
+}
+.navi .menu{
+	background:#EC6841;
+}
+.navi ul{
+	width:100%;
+	list-style:none;
+	display:inline-block;
+	position:relative;
+	font-size:100%;
+	text-align:center;
+}
+.nav ul li{
+	
+}
+.navi ul li a{
+	float:left;
+	color: #FFFFFF;
+	font-size: 110%;
+	text-decoration:none;
+	margin:8px 20px;
+}
+.navi ul li a:hover{
+	text-decoration:underline;
+}
+/*navi end here*/
+/*info start here*/
+.info{
+	margin-top: 4px;
+}
+.info-main{
+	border: 5px solid #849293;
+	padding: 30px ;	
+}
+.personal{
+	border: 4px solid #0D9B75;
+	padding: 20px;
+}
+.research{
+	margin-top: 30px;
+	border: 4px solid #01BF9D;
+	padding: 20px;
+}
+.info-main textarea{
+	width: 100%;
+  background: #FFF;
+  outline: none;
+  border: none;
+  resize: none;  
+
+  height: auto; 
+  overflow:hidden;
+  padding: 0;
+  color: #595959;
+	font-weight: bold;
+}
+.info-main legend{
+	text-align: center;
+	padding: 5px;
+}
+.info-main legend font{
+	background:#0D9B75 ;
+	color: #fff;
+	font-family: impact;
+	font-weight: 200;
+	font-size: 1.4em;
+}
+.research legend font{
+	background:#01BF9D ;
+}
+/*info end here*/
+/*work start here*/
+.work{
+	margin-top: 5px;
+}
+.work-main{
+
+	overflow:hidden;
+}
+.experience,.qualification{
+	padding:10px 20px;
+	width: 49.85%;
+}
+.experience{
+	background: #ED513A;
+	float: left;
+}
+.qualification{
+	background:#EC6841 ;
+	float: right;
+}
+.work-main h1{
+	color: #fff;
+	font-family: Impact;
+	font-size: 1.6em;
+}
+.area{
+  width: 100%;
+  background: #FFF;
+  outline: none;
+  border: none;
+  padding: 10px;
+  height:250px;
+  overflow-y: scroll;
+  resize: none;  
+}
+.work-main input[type="submit"]{
+  width: auto;
+	background: none;
+}
+/*work end here*/
+/*achievement start here*/
+.achieve{
+	margin-top: 5px;
+}
+.achieve-main{
+	border: 5px solid #86B8CA;
+	-moz-border-radius: 10px; 
+  -webkit-border-radius: 10px; 
+  border-radius:10px; 
+  
+  padding: 15px;
+}
+
+.achieve-main span{
+	color: #81BACE;
+	font-family: impact;
+	font-size: 1.6em;
+	
+}
+.achieve-main textarea{
+	width: 100%;
+  background: #FFF;
+  outline: none;
+  border: none;
+  resize: none;  
+ 
+  height: auto; 
+  overflow:hidden;
+  padding: 0;
+  color: #595959;
+	font-weight: bold;
+}
+/*achievement end here*/
+
+@media(max-width:1280px){
+
+}
+@media(max-width:1024px){
+
+.navi ul li a{
+	margin:6px 10px;
+}
+
+.left{
+	width: 100%;
+	height: auto;
+}
+.profile{
+	height: auto;
+	padding: 10px;
+}
+.pic{
+	width:30%;
+	margin-left: 5%;
+	padding: 2.5%;
+}
+
+.resume{
+	margin-top: 1.5%;
+	width:60%;
+}
+th,td{
+	font-size: 100%;
+}
+
+
+.bann-right {
+	margin-top: 4px;
+	width: 100%;
+}
+.work-main textarea {
+  height:330px;
+}
+}
+
+@media(max-width:767px){
+.navi ul li a{
+	font-size: 100%;
+	margin:6px 7px;
+}
+.experience,.qualification{
+	width: 100%;
+	height: auto;
+}
+.qualification{
+	margin-top: 4px;
+}
+.work-main textarea {
+  height:250px;
+}
+}
+@media(max-width:640px){
+
+th,td{
+	font-size: 100%;
+}	
+
+.bann-right {
+  width: 100%;
+  padding: 0;
+}
+}
+
+@media(max-width:480px){
+.banner {
+  min-height: 230px;
+}
+}
+
+@media(max-width:320px){
+.banner {
+  min-height: 185px;
+}
+}

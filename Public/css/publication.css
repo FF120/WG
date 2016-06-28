@@ -1,0 +1,28 @@
+.right  fieldset{
+	border:none;
+	padding: 20px;
+}
+.right legend font{
+	font-weight: 100;
+	font-size: 1.2em;
+}
+
+ .right textarea{  
+  width: 100%;
+  background: #FFF;
+  outline: none;
+  border: none;
+  resize: none;  
+  height: auto; 
+  overflow:hidden;
+  padding: 0;
+  color: #595959;
+  font-weight: 100;
+}
+.right input[type="submit"]{
+	float: right;
+}
+.research input[type="submit"]{
+	width: auto;
+	background: none;
+}
