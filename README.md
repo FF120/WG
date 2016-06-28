@@ -12,7 +12,7 @@
 
 # 部署
 
-1. 配置好Apache服务器和Mysql数据库。
+1. 配置好`Apache`服务器和`Mysql`数据库。
 2. 将`wg.sql`导入`Mysql`数据库
 3. 在`Admin`和`Web`模块中的`config.php`中配置数据库连接信息
 
@@ -31,11 +31,11 @@
 
 4. `Apache`配置重写模块，用来支持去掉URL中的`index.php`
 5. 访问根目录的服务器地址，自动跳转到前台页面
-- 前台地址：http://localhost/wg/Web/Homepage/homepage
-- 后台地址：http://localhost/wg/Admin/Homepage/homepage
-- 演示地址：https://ff120.github.io/wg/
+- 前台地址：[http://localhost/wg/Web/Homepage/homepage/](http://localhost/wg/Web/Homepage/homepage/)
+- 后台地址：[http://localhost/wg/Admin/Homepage/homepage/](http://localhost/wg/Admin/Homepage/homepage/)
+- 演示地址：[https://ff120.github.io/wg/](https://ff120.github.io/wg/)
 
 # 生成静态演示网页
 在`Web`模块中的`IndexController`中的`create_html`方法可以生成静态页面，只需要访问地址
-[http://localhost/wg/Web/Index/create_html] 即可自动在项目中的html文件夹生成静态网页。
+[http://localhost/wg/Web/Index/create_html](http://localhost/wg/Web/Index/create_html) 即可自动在项目中的html文件夹生成静态网页。
 将html目录提交到GitHub的gh-pages分支，即可使用`username.github.io/wg`访问生成的静态页面。
