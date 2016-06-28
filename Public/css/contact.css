@@ -1,0 +1,132 @@
+.main{
+	margin-top: 4px;
+}
+.left{
+	width: 40%;
+	float: left;
+}
+.contact{
+	width: 59.8%;
+	float: right;
+	padding: 10px;
+	border: 5px solid #EC6841;
+}
+.contact h1{
+  color: #000;
+  text-transform: uppercase;
+  font-size: 1.6em;
+}
+.contact h2{
+  color: #e05b5b;
+  font-size: 100%;
+  font-family: Segoe Print;
+  margin-bottom: 1em;
+}
+.row_5 input[type="text"] {
+  padding: 10px;
+  width: 30.9%;
+  font-size: 0.8125em;
+  margin: 10px 0;
+  color: #999;
+  background: none;
+  float: left;
+  outline: none;
+  border: 1px solid #96a6a7;
+}
+.row_6 textarea {
+  width: 100%;
+  font-size: 0.8125em;
+  margin: 10px 0;
+  border: 1px solid #96a6a7;
+  color: #999;
+  background: none;
+  outline: none;
+  height:100px;
+  padding: 10px;
+  resize: none; 
+}
+.contact input[type="submit"] {
+  float: right;
+  color: #FFF;
+  text-align: center;
+  font-size: 0.95em;
+  font-weight: normal;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  background:#e05b5b;
+  display: inline-block;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+.contact input[type="submit"]:hover{
+  background:#7ECCB6;
+}
+
+/*--responsive design--*/
+@media(max-width:1280px){
+
+}
+@media(max-width:1024px){
+.contact{
+	width: 52%;
+}
+.left{
+	width: 47.8%;
+}
+.profile{
+	padding: 5px;
+}
+.pic{
+	width:45%
+}
+.resume{
+	width: 55%;
+}
+th,td{
+	font-size: 100%;
+}
+
+@media(max-width:767px){
+
+.left,.contact{
+	width: 100%;
+}
+.profile{
+	padding: 10px;
+}
+.pic{
+	width:30%;
+	margin-left: 5%;
+	padding: 2.5%;
+}
+
+.resume{
+	margin-top: 1.5%;
+	width:60%;
+}
+th,td{
+	font-size: 110%;
+}
+
+.contact{
+	margin-top: 4px;
+}
+@media(max-width:640px){
+
+th,td{
+	font-size: 100%;
+}
+}
+@media(max-width:480px){
+
+}
+@media(max-width:320px){
+
+}
+
