@@ -21,7 +21,7 @@ define('APP_DEBUG',True);
 define('APP_PATH','./Application/');
 
 //定义静态文件路径
-define('HTML_PATH', './WebRoot/');
+define('HTML_PATH', './html/web/');
 
 //定义网站根目录的绝对路径
 define('BASE_PATH',str_replace('\\','/',realpath(dirname(__FILE__).'/'))."/");

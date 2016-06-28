@@ -2,17 +2,17 @@
 <html>
 <head>
 <title>Wilson Goh</title>
-<link href="/WilsonGoh_v5/Public/CSS/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<script src="/WilsonGoh_v5/Public/js/jquery.min.js"></script>
-<link href="/WilsonGoh_v5/Public/css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="/WilsonGoh_v5/Public/css/homepage.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="/wg/Public/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<script src="/wg/Public/js/jquery.min.js"></script>
+<link href="/wg/Public/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="/wg/Public/css/homepage.css" rel="stylesheet" type="text/css" media="all"/>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="renderer" content="webkit">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }>
 </script>
 <!-- start-smoth-scrolling -->
-<script type="text/javascript" src="/WilsonGoh_v5/Public/js/easing.js"></script>
+<script type="text/javascript" src="/wg/Public/js/easing.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$(".scroll").click(function(event){		
@@ -41,8 +41,8 @@
 </script>
 <!--end text autoHegiht-->
 <!--start flexslider -->
-<link href="/WilsonGoh_v5/Public/css/flexslider.css" rel='stylesheet' type='text/css' />
-<script defer src="/WilsonGoh_v5/Public/js/jquery.flexslider.js"></script>
+<link href="/wg/Public/css/flexslider.css" rel='stylesheet' type='text/css' />
+<script defer src="/wg/Public/js/jquery.flexslider.js"></script>
 <script type="text/javascript">
 	$(function(){
 		SyntaxHighlighter.all();
@@ -65,10 +65,10 @@
 <div class="header">
     <div class="container header-main">      	
 			<div class="logo">
-				<img src="/WilsonGoh_v5/Public/images/logo.jpg" alt=""/> 
+				<img src="/wg/Public/images/logo.jpg" alt=""/> 
 			</div>
 			<div class="top-nav">
-				<span class="menu"> <img src="/WilsonGoh_v5/Public/images/icon.png" alt=""/></span>
+				<span class="menu"> <img src="/wg/Public/images/icon.png" alt=""/></span>
 				<nav>	
 					<ul class="res">
 							<li><a href="<?php echo U('Homepage/homepage');?>" class="active">Home Page</a></li>
@@ -99,7 +99,7 @@
 		<div class="col-md-5 left">
 		 	<div class="row profile">
 				<div class="col-md-6 pic">
-				    <img src="/WilsonGoh_v5/Public/images/<?php echo ($data['image']); ?>" class="img-responsive"/>
+				    <img src="/wg/Public/images/<?php echo ($data['image']); ?>" class="img-responsive"/>
 				</div>
 				<div class="col-md-6 resume">
 				<table border="0">
@@ -124,8 +124,8 @@
 				  <div class="flexslider">
 					<ul class="slides">
 						<!--840px*530px -->
-						<li><img src="/WilsonGoh_v5/Public/images/<?php echo ($apath); ?>" alt=""/></li>
-						<li><img src="/WilsonGoh_v5/Public/images/<?php echo ($bpath); ?>" alt=""/></li>
+						<li><img src="/wg/Public/images/<?php echo ($apath); ?>" alt=""/></li>
+						<li><img src="/wg/Public/images/<?php echo ($bpath); ?>" alt=""/></li>
 					</ul>
 				  </div>
 	          </section>
@@ -155,7 +155,7 @@
 	<div class="container info-main">
 		<fieldset class="personal" id="per_info">  
                 <legend>
-                	<img src="/WilsonGoh_v5/Public/images/per_info.png" alt=""/>
+                	<img src="/wg/Public/images/per_info.png" alt=""/>
                 	<font>Personal Information</font>
                 </legend>  
                 <div readonly="readonly"><?php echo ($personal_information); ?>
@@ -163,7 +163,7 @@
         </fieldset>
         <fieldset class="research" id="re_proj">  
                 <legend>
-                	<img src="/WilsonGoh_v5/Public/images/research.png" alt=""/>
+                	<img src="/wg/Public/images/research.png" alt=""/>
                 	<font>Research Projects</font>
                 </legend>
 			<div readonly="readonly" ><?php echo ($research_projects); ?>
@@ -199,7 +199,7 @@
 	<div class="container achieve-main">	
 	<span>
 		Achievements
-		<img src="/WilsonGoh_v5/Public/images/achieve.png" alt=""/>
+		<img src="/wg/Public/images/achieve.png" alt=""/>
 	</span>
 	<div readonly="readonly"><?php echo ($achievements); ?>
 	</div>

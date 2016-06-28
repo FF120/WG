@@ -2,10 +2,10 @@
 <html>
 	<head>
 		<title>ResearchFields</title>
-		<link href="/WilsonGoh_v5/Public/CSS/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-		<script src="/WilsonGoh_v5/Public/js/jquery.min.js"></script>
-		<link href="/WilsonGoh_v5/Public/css/style.css" rel="stylesheet" type="text/css" media="all"/>
-		<link href="/WilsonGoh_v5/Public/css/researchfield.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href="/wg/Public/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<script src="/wg/Public/js/jquery.min.js"></script>
+		<link href="/wg/Public/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href="/wg/Public/css/researchfield.css" rel="stylesheet" type="text/css" media="all"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta name="renderer" content="webkit">
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -34,10 +34,10 @@
 <div class="header">
     <div class="container header-main">      	
 			<div class="logo">
-				<img src="/WilsonGoh_v5/Public/images/logo.jpg" alt=""/> 
+				<img src="/wg/Public/images/logo.jpg" alt=""/> 
 			</div>
 			<div class="top-nav">
-				<span class="menu"> <img src="/WilsonGoh_v5/Public/images/icon.png" alt=""/></span>
+				<span class="menu"> <img src="/wg/Public/images/icon.png" alt=""/></span>
 				<nav>
 					<ul class="res">
 						<li><a href="<?php echo U('Homepage/homepage');?>">Home Page</a></li>
@@ -69,7 +69,7 @@
 		<div class="col-md-5 left">
 		 	<div class="row profile">
 				<div class="col-md-6 pic">
-				    <img src="/WilsonGoh_v5/Public/images/profile.jpg" class="img-responsive"/>
+				    <img src="/wg/Public/images/profile.jpg" class="img-responsive"/>
 				</div>
 				<div class="col-md-6 resume">
 					<table border="0">
@@ -96,7 +96,7 @@
 		</div>
 		<div class="col-md-7 right">
 			<div class="head">
-				<img src="/WilsonGoh_v5/Public/images/topic.jpg" alt=""/>
+				<img src="/wg/Public/images/topic.jpg" alt=""/>
 				<font>Current Research Topics</font>
 			</div>
 			<?php if(is_array($list)): $i = 0; $__LIST__ = $list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$aa): $mod = ($i % 2 );++$i;?><h4><a href="<?php echo U('Researchfield/goDeatils?id='.$aa['id']);?>"><?php echo ($aa['title']); ?></a></h4>
